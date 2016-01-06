@@ -77,4 +77,4 @@ getInitialState: function(){
 	  }
     });
 
-React.render(<TodoApp/>, document.body);
+ReactDOM.render(<TodoApp/>, document.getElementById('reactdiv'));
